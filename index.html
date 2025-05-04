@@ -15,7 +15,7 @@
   <header>
     <div class="searchwrap box-style flex align-items-center">
       <input type="text" placeholder="여행지를 검색해주세요.">
-      <button class="flex align-items-center">
+      <button class="flex align-items-center" aria-label="검색">
         <svg xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
           <path
@@ -29,52 +29,21 @@
       <div>
         <h2>여행지를 결정해줄게요!</h2>
         <div class="selectWrap flex align-items-center">
-          <select class="box-style mg-0L mg-10R" name="" id="city">
+          <select class="box-style mg-0L mg-10R" aria-label="시도 선택" id="city">
             <option value="">시도</option>
-            <!-- <option value="" disabled hidden selected>시도</option>
-            <option value="">서울특별시</option>
-            <option value="">대전광역시</option>
-            <option value="">부산광역시</option> -->
+
           </select>
-          <select class="box-style mg-0L mg-10R" name="" id="region">
+          <!-- <select class="box-style mg-0L mg-10R" aria-label="시군구 선택" id="region">
             <option value="" disabled hidden selected>시군구</option>
-            <!-- <option value="" disabled hidden selected>시군구</option>
-            <option value="">담양</option>
-            <option value="">김해</option>
-            <option value="">순천</option> -->
-          </select>
+     
+          </select> -->
           <!-- <button class="box-style mg-0L mg-10R">보기</button> -->
         </div>
       </div>
       <h2>이런곳도 좋아요!</h2>
-      <div>
-        <div class="contentWrap">
-          <h4>가가상점</h4>
-          <img src="img/gaga.png" alt="">
-          <p>공주 로컬굿즈샵입니다~ 나태주 시인 시집도 팔아요!
-            산책 겸 구경가기 좋아요~!</p>
-        </div>
-        <div>
-          <h4>기본정보</h4>
-          <div class="mapContent">
-            <img src="img/map.png" alt="">
-          </div>
-          <div class="addInfo flex align-items-center">
-            <p>주소</p>
-            <!-- 클릭하면 복사 -->
-            <span>충남 공주시 감영길 3</span>
-          </div>
-          <div class="addInfo flex align-items-center">
-            <p>영업시간</p>
-            <span> 오전 11시 ~ 오후 7시 </span>
-          </div>
-          <div class="addInfo flex align-items-center">
-            <p>정기 휴무일</p>
-            <span>매주 월요일</span>
-          </div>
-        </div>
+      <div id="travelDataWrapContainer">
+
       </div>
-    </div>
   </main>
 
   <script type="module" src="js/index.js"></script>

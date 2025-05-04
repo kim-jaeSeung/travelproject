@@ -1,0 +1,277 @@
+
+
+{
+  "서울특별시": [
+    {
+      "name": "남산서울타워",
+      "description": "서울을 한눈에 볼 수 있는 전망 명소로, 야경이 아름답습니다.",
+      "location": "서울 중구 남산공원길 105",
+      "openingHours": "10:00 ~ 23:00",
+      "closedDays": "연중무휴"
+    },
+    {
+      "name": "익선동 한옥거리",
+      "description": "전통과 현대가 어우러진 감성적인 골목길입니다.",
+      "location": "서울 종로구 익선동",
+      "openingHours": "상점별 상이 (보통 11:00 ~ 21:00)",
+      "closedDays": "매장마다 다름"
+    }
+  ],
+  "부산광역시": [
+    {
+      "name": "해운대 해수욕장",
+      "description": "부산을 대표하는 해변으로 여름철 피서지로 인기입니다.",
+      "location": "부산 해운대구 해운대해변로 264",
+      "openingHours": "09:00 ~ 21:00 (여름철)",
+      "closedDays": "겨울철 폐장"
+    },
+    {
+      "name": "감천문화마을",
+      "description": "알록달록한 건물과 벽화로 유명한 예술마을입니다.",
+      "location": "부산 사하구 감내1로 200",
+      "openingHours": "09:00 ~ 18:00",
+      "closedDays": "연중무휴"
+    }
+  ],
+  "대구광역시": [
+    {
+      "name": "앞산공원",
+      "description": "도심 속에서 자연을 느낄 수 있는 힐링 공간입니다.",
+      "location": "대구 남구 앞산순환로 574",
+      "openingHours": "05:00 ~ 22:00",
+      "closedDays": "연중무휴"
+    },
+    {
+      "name": "김광석 다시 그리기 길",
+      "description": "김광석을 기리는 벽화거리로, 음악과 함께 산책할 수 있습니다.",
+      "location": "대구 중구 달구벌대로 2232",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    }
+  ],
+  "인천광역시": [
+    {
+      "name": "송도 센트럴파크",
+      "description": "도심 속 수상택시와 자연경관이 조화를 이루는 공원입니다.",
+      "location": "인천 연수구 송도동 24-5",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    },
+    {
+      "name": "차이나타운",
+      "description": "다양한 중화요리와 중국 문화를 경험할 수 있는 거리입니다.",
+      "location": "인천 중구 차이나타운로 38",
+      "openingHours": "10:00 ~ 21:00",
+      "closedDays": "가게마다 상이"
+    }
+  ],
+  "광주광역시": [
+    {
+      "name": "광주 국립아시아문화전당",
+      "description": "문화예술과 전시, 체험이 가능한 대형 복합문화시설입니다.",
+      "location": "광주 동구 문화전당로 38",
+      "openingHours": "10:00 ~ 18:00",
+      "closedDays": "월요일"
+    },
+    {
+      "name": "양림동 역사문화마을",
+      "description": "근대문화유산이 잘 보존된 고즈넉한 마을입니다.",
+      "location": "광주 남구 양림동",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    }
+  ],
+  "대전광역시": [
+    {
+      "name": "한밭수목원",
+      "description": "도심 속의 자연 휴식처로 다양한 식물군을 보유하고 있습니다.",
+      "location": "대전 서구 둔산대로 169",
+      "openingHours": "09:00 ~ 18:00",
+      "closedDays": "월요일"
+    },
+    {
+      "name": "엑스포과학공원",
+      "description": "과학체험과 전시를 통해 미래 기술을 접할 수 있는 공간입니다.",
+      "location": "대전 유성구 대덕대로 481",
+      "openingHours": "10:00 ~ 17:00",
+      "closedDays": "월요일"
+    }
+  ],
+  "울산광역시": [
+    {
+      "name": "대왕암공원",
+      "description": "바위 절경과 소나무 숲이 어우러진 해안 산책로가 인상적입니다.",
+      "location": "울산 동구 등대로 95",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    },
+    {
+      "name": "태화강 국가정원",
+      "description": "도심 속 친환경 생태공원으로 가족 나들이에 적합합니다.",
+      "location": "울산 중구 태화강국가정원길 154",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    }
+  ],
+  "세종특별자치시": [
+    {
+      "name": "세종호수공원",
+      "description": "넓은 호수와 산책로, 문화예술공간이 조화로운 공원입니다.",
+      "location": "세종특별자치시 세종호수6로 62",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    },
+    {
+      "name": "국립세종수목원",
+      "description": "국내 최초의 도심형 수목원으로 다양한 식물을 감상할 수 있습니다.",
+      "location": "세종특별자치시 중앙수목원로 212",
+      "openingHours": "09:00 ~ 18:00",
+      "closedDays": "월요일"
+    }
+  ],
+  "경기도": [
+    {
+      "name": "수원 화성",
+      "description": "유네스코 세계문화유산으로 지정된 조선시대 성곽입니다.",
+      "location": "경기 수원시 팔달구 정조로 825",
+      "openingHours": "09:00 ~ 18:00",
+      "closedDays": "월요일"
+    },
+    {
+      "name": "가평 아침고요수목원",
+      "description": "사계절 내내 아름다운 정원 풍경을 자랑하는 수목원입니다.",
+      "location": "경기 가평군 상면 수목원로 432",
+      "openingHours": "08:30 ~ 19:00",
+      "closedDays": "연중무휴"
+    }
+  ],
+
+  "강원도": [
+    {
+      "name": "경포해변",
+      "description": "맑고 깨끗한 바다와 송림이 어우러진 강릉 대표 해변입니다.",
+      "location": "강원 강릉시 강문동",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    },
+    {
+      "name": "설악산 국립공원",
+      "description": "아름다운 산세와 폭포, 단풍으로 유명한 국립공원입니다.",
+      "location": "강원 속초시 설악산로 833",
+      "openingHours": "04:00 ~ 18:00",
+      "closedDays": "기상 상황에 따라 일부 구간 통제"
+    }
+  ],
+  "충청북도": [
+    {
+      "name": "청남대",
+      "description": "대통령 별장이었던 공간으로 현재는 일반인에게 개방된 관광지입니다.",
+      "location": "충북 청주시 상당구 문의면 청남대길 646",
+      "openingHours": "09:00 ~ 18:00",
+      "closedDays": "월요일"
+    },
+    {
+      "name": "단양 도담삼봉",
+      "description": "남한강 위의 세 개의 봉우리가 만들어낸 아름다운 경관입니다.",
+      "location": "충북 단양군 매포읍 삼봉로 644",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    }
+  ],
+  "충청남도": [
+    {
+      "name": "서산 해미읍성",
+      "description": "조선시대 군사 요새로 현재는 산책과 역사 교육의 공간입니다.",
+      "location": "충남 서산시 해미면 남문1로 143",
+      "openingHours": "09:00 ~ 18:00",
+      "closedDays": "연중무휴"
+    },
+    {
+      "name": "태안 꽃지해변",
+      "description": "낙조와 솔섬이 어우러진 환상적인 해변입니다.",
+      "location": "충남 태안군 안면읍 꽃지해안로 398",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    }
+  ],
+  "전라북도": [
+    {
+      "name": "전주 한옥마을",
+      "description": "전통 한옥과 맛집, 문화 체험이 가능한 대표 관광지입니다.",
+      "location": "전북 전주시 완산구 기린대로 99",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    },
+    {
+      "name": "군산 근대역사박물관",
+      "description": "일제강점기 유산과 군산의 과거를 만날 수 있는 공간입니다.",
+      "location": "전북 군산시 해망로 240",
+      "openingHours": "09:00 ~ 18:00",
+      "closedDays": "월요일"
+    }
+  ],
+  "전라남도": [
+    {
+      "name": "여수 해상케이블카",
+      "description": "바다 위를 가로지르는 케이블카로 여수의 전경을 한눈에 볼 수 있습니다.",
+      "location": "전남 여수시 돌산읍 돌산로 3600-1",
+      "openingHours": "10:00 ~ 22:00",
+      "closedDays": "기상 악화 시"
+    },
+    {
+      "name": "담양 메타세쿼이아길",
+      "description": "수려한 나무길로 산책과 사진 명소로 인기 있는 장소입니다.",
+      "location": "전남 담양군 담양읍 메타프로방스길 20",
+      "openingHours": "09:00 ~ 18:00",
+      "closedDays": "연중무휴"
+    }
+  ],
+  "경상북도": [
+    {
+      "name": "불국사",
+      "description": "신라시대의 대표적인 사찰로 유네스코 세계문화유산입니다.",
+      "location": "경북 경주시 불국로 385",
+      "openingHours": "07:00 ~ 17:00",
+      "closedDays": "연중무휴"
+    },
+    {
+      "name": "안동 하회마을",
+      "description": "전통 한옥 마을로 유네스코에 등재된 세계문화유산입니다.",
+      "location": "경북 안동시 풍천면 하회종가길 2",
+      "openingHours": "09:00 ~ 18:00",
+      "closedDays": "연중무휴"
+    }
+  ],
+  "경상남도": [
+    {
+      "name": "진주성",
+      "description": "임진왜란의 격전지로 역사와 함께 성곽의 아름다움을 느낄 수 있습니다.",
+      "location": "경남 진주시 남강로 626",
+      "openingHours": "09:00 ~ 18:00",
+      "closedDays": "연중무휴"
+    },
+    {
+      "name": "통영 동피랑 마을",
+      "description": "알록달록한 벽화가 가득한 언덕 위의 예술 마을입니다.",
+      "location": "경남 통영시 동피랑길 6-18",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    }
+  ],
+  "제주특별자치도": [
+    {
+      "name": "성산일출봉",
+      "description": "일출 명소로 제주 동부의 상징적인 오름입니다.",
+      "location": "제주 서귀포시 성산읍 성산리 1",
+      "openingHours": "07:00 ~ 19:00",
+      "closedDays": "기상 악화 시"
+    },
+    {
+      "name": "협재해변",
+      "description": "에메랄드빛 바다와 고운 백사장이 매력적인 해변입니다.",
+      "location": "제주 제주시 한림읍 협재리",
+      "openingHours": "상시 개방",
+      "closedDays": "연중무휴"
+    }
+  ]
+}

@@ -1,139 +1,143 @@
 * {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Noto Sans KR", serif;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", serif;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul li {
-    list-style: none;
+  list-style: none;
 }
 
 :root {
-    --main-text-color: #414141;
-    --main-input-bgcolor: #d9dce8;
-    --content-text-color: #686868;
+  --main-text-color: #414141;
+  --main-input-bgcolor: #d9dce8;
+  --content-text-color: #686868;
 }
 input {
-    border: none;
-    outline: none;
-    background-color: transparent;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 
 h2 {
-    font-size: 22px;
-    color: var(--main-text-color);
-    margin-bottom: 20px;
+  font-size: 22px;
+  color: var(--main-text-color);
+  margin-bottom: 20px;
 }
 h4 {
-    margin-bottom: 15px;
-    font-size: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
 }
 /* setting */
 .flex {
-    display: flex;
+  display: flex;
 }
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 .box-style {
-    border-radius: 5px;
-    background-color: var(--main-input-bgcolor);
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 5px 10px;
+  border-radius: 5px;
+  background-color: var(--main-input-bgcolor);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 10px;
 }
 
 .mg-0L {
-    margin-left: 0;
+  margin-left: 0;
 }
 .mg-10R {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 header {
-    margin-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .searchwrap {
-    width: 90%;
+  width: 90%;
 }
 
 .searchwrap input {
-    width: 80%;
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 0;
+  width: 80%;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 0;
 }
 
 .searchwrap button {
-    border: none;
-    outline: none;
-    background-color: transparent;
-    margin-right: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-right: 0;
 }
 .searchwrap button svg {
-    width: 30px;
-    padding: 5px;
-    cursor: pointer;
+  width: 30px;
+  padding: 5px;
+  cursor: pointer;
 }
 .contentWrap {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .contentWrap img {
-    width: 100%;
+  width: 100%;
 }
 .contentWrap p {
-    font-size: 14px;
-    font-weight: 600;
-    margin-top: 15px;
-    color: var(--content-text-color);
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 15px;
+  color: var(--content-text-color);
 }
 .mapContent img {
-    width: 100%;
+  width: 100%;
 }
 .selectWrap {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .addInfo {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .addInfo p {
-    font-size: 14px;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: 500;
-    width: 30%;
+  font-size: 14px;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 500;
+  width: 30%;
 }
 .addInfo span {
-    display: block;
-    margin-left: 0;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--content-text-color);
+  display: block;
+  margin-left: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--content-text-color);
 }
 main > div {
-    width: 90%;
+  width: 90%;
 }
 main {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 main,
 header {
-    width: 50%;
+  width: 50%;
 }
 
 @media (max-width: 768px) {
-    header {
-        box-shadow: rgba(33, 35, 38, 0.7) 0px 10px 10px -10px;
-    }
-    main,
-    header {
-        width: 100%;
-    }
+  header {
+    box-shadow: rgba(33, 35, 38, 0.7) 0px 10px 10px -10px;
+  }
+  main,
+  header {
+    width: 100%;
+  }
+}
+
+.mainTitle {
+  margin-top: 20px;
 }

@@ -8,25 +8,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=w8zuejd4dy
+  "></script>
   <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-  <header>
+  <!-- <header>
     <div class="searchwrap box-style flex align-items-center">
       <input type="text" placeholder="여행지를 검색해주세요.">
       <button class="flex align-items-center" aria-label="검색">
         <svg xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          viewBox="0 0 512 512">
           <path
             d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
         </svg>
       </button>
     </div>
-  </header>
+  </header> -->
   <main>
     <div>
-      <div>
+      <div class="mainTitle">
         <h2>여행지를 결정해줄게요!</h2>
         <div class="selectWrap flex align-items-center">
           <select class="box-style mg-0L mg-10R" aria-label="시도 선택" id="city">
@@ -42,10 +44,16 @@
       </div>
       <h2>이런곳도 좋아요!</h2>
       <div id="travelDataWrapContainer">
-
+        <p>지역을 선택하면 추천지가 나와요!</p>
       </div>
+      <div id="map"></div>
   </main>
-
+  <script>
+    const map = new naver.maps.Map('map', {
+      center: new naver.maps.LatLng(37.5665, 126.9780), // 서울 중심
+      zoom: 10,
+    });
+  </script>
   <script type="module" src="js/index.js"></script>
 </body>
 
